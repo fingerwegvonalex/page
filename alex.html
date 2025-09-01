@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Finger Weg von Alex!</title>
+  <style>
+    :root{
+      --bg: #FFFBE6;       /* very light yellow */
+      --text: #1f2937;     /* dark gray for good contrast */
+      --muted: #475569;    /* subtle text */
+      --gap: 14px;
+    }
+    html, body { height: 100%; }
+    body{
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font: 16px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+    }
+    .wrap{
+      max-width: 900px;
+      margin: 48px auto;
+      padding: 0 16px;
+    }
+
+    /* Header layout */
+    header{
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: var(--gap);
+      align-items: center;
+      margin-bottom: 24px;
+    }
+    @media (min-width: 640px){
+      header{
+        grid-template-columns: 1fr 200px; /* text left, image right */
+      }
+    }
+
+    h1{
+      margin: 0 0 6px;
+      font-size: 5.7rem;
+      font-weight: 600;
+    }
+    .subtitle{
+      margin: 0;
+      color: var(--muted);
+      font-size: 2.95rem;
+    }
+
+    .header-image img{
+      display: block;
+      width: 100%;
+      height: auto;
+      border-radius: 4px;
+    }
+
+    .text-block{
+      margin: 22px 0 28px;
+    }
+
+    .gallery{
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: var(--gap);
+    }
+    @media (min-width: 640px){
+      .gallery{ grid-template-columns: 1fr 1fr; }
+    }
+    figure{
+      margin: 0;
+    }
+    img{
+      display: block;
+      width: 100%;
+      height: auto;
+      border-radius: 4px;
+    }
+    figcaption{
+      margin-top: 6px;
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div>
+        <h1>Ich bin Alex</h1>
+        <p class="subtitle">Finger weg von mir!</p>
+      </div>
+      <div class="header-image">
+        <img src="Alex0.jpg" alt="Describe header photo" />
+      </div>
+    </header>
+
+    <main>
+      <section class="text-block">
+        <p>
+	        <br>
+            Alex (nennt sich auch manchmal Daniel) ist 37 (Altersangabe ebenfalls variabel), auf fast allen online Dating Plattformen vertreten und übt in Beziehungen psychische Gewalt aus (gaslighting, Manipulation, zwanghaftes Lügen). Er führt unabgesprochen und nicht einvernehmlich Parallelbeziehungen, von denen die jeweiligen Partnerinnen nichts wissen.<br><br>
+
+            Außerdem:<br>
+                • Behauptet er, Dozent an verschiedenen Unis zu sein, obwohl er eigentlich Betriebsprüfer beim Finanzamt ist und nur einen Kurs bei der IHK gibt<br>
+                • Er hat seinen Zugang zum Steuerregister missbraucht, um die Adresse einer Exfreundin herauszufinden, eine entsprechende Anzeige wurde leider fallengelassen<br>
+                • Zwei seiner Exfreundinnen waren monatelang arbeitsunfähig aufgrund der durch ihn ausgeübten psychischen Gewalt<br>
+                • Hat regelmäßig unerlaubt die Handys seiner Exfreundinnen gecheckt<br>
+                • Hat gemeinsame Urlaube mit der einen Freundin als Dienstreise vor der anderen getarnt<br>
+                • Hat alle Exfreundinnen nach Auffliegen blockiert und geht Gesprächen konsequent aus dem Weg<br>
+                • Redet über seine Exfreundinnen schlecht, stellt sie als unglaubwürdig und „crazy“ da, sodass möglichst kein Austausch untereinander stattfinden kann<br>
+                • Ist im online Dating konsequent als Single angemeldet auch wenn er in Beziehungen ist<br><br>
+
+            Auf seinen Profilen stellt er es so dar, als sei ihm offene Kommunikation auf Augenhöhe besonders wichtig, aber er ist ein pathologischer Lügner. Finger weg von diesem Mann!
+        </p>
+
+      </section>
+
+      <section class="gallery" aria-label="Photo gallery">
+        <figure>
+          <img src="Alex1.jpg" alt="Describe photo 1" />
+        </figure>
+        <figure>
+          <img src="Alex2.jpg" alt="Describe photo 2" />
+        </figure>
+      </section>
+
+      <section class="gallery" aria-label="Photo gallery" style="margin-top:1em;">
+    <figure>
+      <img src="Alex3.jpg" alt="Describe photo 1" />
+    </figure>
+    <figure>
+      <img src="Alex4.jpg" alt="Describe photo 2" />
+    </figure>
+    </section>
+    </main>
+  </div>
+</body>
+</html>
